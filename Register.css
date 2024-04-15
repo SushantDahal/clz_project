@@ -80,7 +80,7 @@
 }
 ::placeholder {
   font-size: 16px;
-  color: black;
+  color: rgb(94, 87, 87);
 }
 
 .button-group {

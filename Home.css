@@ -87,8 +87,8 @@ nav ul li {
   max-width: 1240px;
 }
 
-.brand_title {
-  margin-top: 20px;
+.title {
+  margin: 20px 0;
   text-align: center;
 }
 .brand img {
@@ -99,7 +99,6 @@ nav ul li {
 }
 .brand {
   max-width: 90%;
-
   display: flex;
   gap: 15px;
   margin: 0 auto;
@@ -120,4 +119,144 @@ nav ul li {
 
 .brand div:hover {
   transform: translateY(-10px) scale(1.05);
+}
+
+/* New Launches */
+
+.gridItem {
+  margin: 0 auto;
+  max-width: 1240px;
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 1240px;
+  gap: 10px;
+}
+.gridItem img {
+  border-radius: 20px;
+  height: auto;
+}
+
+.img-div {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+.img-div img {
+  height: 222px;
+  margin-top: 8px;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.aa {
+  width: 100%;
+  display: flex;
+}
+
+.aa img {
+  width: 50%;
+}
+.aa .img1 {
+  border-radius: 20px 0 0 20px;
+}
+.aa .img2 {
+  border-radius: 0 20px 20px 0;
+}
+/* Explore Best seller start */
+
+.ex {
+  max-width: 1240px;
+
+  margin: 70px auto 40px auto;
+}
+.ex h1 {
+  padding: 10px 0 0 20px;
+}
+.explore {
+  height: auto;
+  padding: 20px;
+  color: white;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.aa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.ex h1 {
+  font-size: 20px;
+  padding: 12px 45px 2px 20px;
+}
+
+.aa .viewmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  gap: 8px;
+}
+.aa .viewmore .hh:hover {
+  color: red;
+  transition: 0.2s;
+  cursor: pointer;
+  font-weight: 800;
+}
+.cart {
+  display: flex;
+}
+.cart .a {
+  max-width: 280px;
+  border-radius: 10px;
+  overflow: hidden; /* Ensures the box-shadow doesn't overflow */
+  box-shadow: 0px 0px 0px 1px black; /* Creates a 1px border effect */
+}
+
+.cart .a h3 {
+  padding: 8px 0 0 0;
+}
+.cart .a img {
+  margin: 0 auto;
+  min-width: 270px;
+  max-width: 100%; /* Ensures image doesn't exceed container width */
+  height: 200px; /* Set fixed height for consistent display */
+
+  max-height: 200px; /* Set maximum height for consistent display */
+  border-radius: 10px 10px 0 0;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 3px;
+  align-items: center;
+}
+.rating i {
+  color: #ebd96b;
+  font-size: 20px;
+}
+.rating button {
+  padding: 12px 6px;
+  width: 140px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: 0.3s;
+  border: none;
+}
+.rating button:hover {
+  transition: 0.3s;
+  background-color: rgb(165, 78, 153);
+}
+.c {
+  background-color: #2a443a;
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
 }
