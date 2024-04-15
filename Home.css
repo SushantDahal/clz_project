@@ -81,8 +81,10 @@ nav ul li {
 }
 
 /* Brand Start from here */
+
 .b {
   margin: 30px auto;
+  max-width: 1240px;
 }
 
 .brand_title {
@@ -99,7 +101,7 @@ nav ul li {
   max-width: 90%;
 
   display: flex;
-  gap: 30px;
+  gap: 15px;
   margin: 0 auto;
   flex-wrap: wrap;
   padding: 0 20px;
@@ -108,7 +110,7 @@ nav ul li {
   border: 2px solid black;
   border-radius: 20px;
   padding-left: 30px;
-  width: 300px;
+  width: 200px;
   height: 120px;
   transition: transform 0.3s ease;
   display: flex;
