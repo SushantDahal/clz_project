@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-around;
   height: 100px;
-  background-color: rgb(43, 40, 40);
+  background-color: rgb(61, 54, 54);
   align-items: center;
 }
 .navbar img {
@@ -62,6 +62,12 @@ nav ul li {
 .search_div .user {
   border: 1px solid white;
   padding: 6px;
+}
+.search_div .search i {
+  color: black;
+}
+.search_div .search i:hover {
+  color: red;
 }
 .search {
   background-color: white;
@@ -203,7 +209,11 @@ nav ul li {
   margin-right: 40px;
   gap: 8px;
 }
-.aa .viewmore .hh:hover {
+.aa .viewmore .hh a {
+  color: black;
+  text-decoration: none;
+}
+.aa .viewmore .hh a:hover {
   color: red;
   transition: 0.2s;
   cursor: pointer;
@@ -263,7 +273,7 @@ nav ul li {
 /* Footer section */
 .footer {
   width: 100%;
-  background: #d34646;
+  background: #0a0a0a;
 }
 .f {
   max-width: 1240px;
@@ -273,7 +283,6 @@ nav ul li {
   gap: 10px;
 }
 .newsletter {
-  background-color: #ebd96b;
   flex-basis: 50%;
 }
 
@@ -320,4 +329,47 @@ nav ul li {
 .contact h4 {
   padding: 7px 0;
   font-weight: 500;
+}
+
+.newsletter img {
+  width: 70%;
+  height: 120px;
+}
+.newsletter h3 {
+  padding: 8px 0;
+  color: red;
+  font-weight: 700;
+}
+.newsletter {
+  padding: 10px;
+}
+.newsletter input {
+  outline: none;
+  padding: 12px 6px;
+  width: 80%;
+  border-radius: 10px 0 0 10px;
+  border: 2px solid white;
+}
+
+.newsletter .input_div {
+  width: 70%;
+  border: none;
+  display: flex;
+}
+
+.newsletter ::placeholder {
+  font-size: 18px;
+}
+.newsletter .input_div button {
+  width: 20%;
+  color: red;
+  border-radius: 0 10px 10px 0;
+  transition: ease-in-out 0.3s;
+  border: 2px solid white;
+
+  border-left: 1px solid red;
+}
+.newsletter .input_div button:hover {
+  background-color: black;
+  transition: ease-in-out 0.3s;
 }
