@@ -38,9 +38,17 @@
 .viewmore {
   display: flex;
   align-items: center;
-
   margin-left: 30px;
   padding-left: 20px;
+}
+.viewmore a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+.viewmore a:hover {
+  color: #746b6b;
+  transition: 0.2s;
 }
 .viewmore i {
   font-size: 40px;
