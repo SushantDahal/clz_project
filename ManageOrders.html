@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="ManageCustomer.css" />
+    <link rel="stylesheet" href="ManageOrders.css" />
     <script
       src="https://kit.fontawesome.com/eed0f9355e.js"
       crossorigin="anonymous"
     ></script>
-    <title>Manage Customers</title>
+    <title>Manage Order</title>
   </head>
   <body>
     <div class="container">
@@ -21,11 +21,11 @@
               ><i class="fa-solid fa-box"></i>
               <li>products</li></a
             >
-            <a href="ManageOrders.html"
+            <a href="" class="ord"
               ><i class="fa-solid fa-bag-shopping"></i>
               <li>Orders</li></a
             >
-            <a href="" class="customers"
+            <a href="ManageCustomer.html"
               ><i class="fa-solid fa-users"></i>
               <li>Customers</li></a
             >
@@ -41,32 +41,37 @@
       <div class="bar2">
         <h1>Hi, Prayash. Welcome to Admin Panel!</h1>
         <hr class="" />
-
+        <a href="Addproduct.html"> <button>Add Product</button></a>
         <div class="order_details">
           <div class="name">
-            <h1>Username</h1>
-            <h1>Full Name</h1>
-            <h1>Email</h1>
-            <h1>Registered Date</h1>
-            <h1>Actions</h1>
+            <h1>Order No</h1>
+            <h1>Product Name</h1>
+            <h1>Quantity</h1>
+            <h1>Total Price</h1>
+            <h1>Order Date</h1>
+            <h1>Stautus</h1>
           </div>
           <div>
             <div class="details">
-              <h3>mysticeact</h3>
-              <h3>Prayash Jung Khadka</h3>
-              <h3>prayashjungkhadka@gmail.com</h3>
+              <h3>101</h3>
+              <h3>Boathead 501 Latest</h3>
+              <h3>5</h3>
+              <h3>Rs. 9000</h3>
               <h3>2023/15/04 11:23:09</h3>
               <div>
-                <h3 class="Delete">Delete</h3>
+                <h3 class="Delivered">Delivered</h3>
+                <i class="fa-solid fa-chevron-down"></i>
               </div>
             </div>
             <div class="details">
-              <h3>mysticeact</h3>
-              <h3>Sushant Dahal</h3>
-              <h3>Sushantdahalgmail.com</h3>
+              <h3>101</h3>
+              <h3>Boathead 501 Latest</h3>
+              <h3>5</h3>
+              <h3>Rs. 9000</h3>
               <h3>2023/15/04 11:23:09</h3>
               <div>
-                <h3 class="Delete">Delete</h3>
+                <h3 class="Pending">Pending</h3>
+                <i class="fa-solid fa-chevron-down"></i>
               </div>
             </div>
           </div>
